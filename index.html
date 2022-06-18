@@ -16,17 +16,16 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body class="page">
-    <!--Шапка сайта-->
     <header class="header">
       <div class="container">
         <div class="nav-container">
-          <a href="" class="logo"><span class="design-logo">Web</span>Studio</a>
+          <a href="#hero" class="logo" lang="en"
+            ><span class="design-logo">Web</span>Studio</a
+          >
           <nav class="navigation">
-            <ul class="navigation-item list">
+            <ul class="navigation-items list">
               <li class="nav-item">
-                <a
-                  href="./index.html"
-                  class="navigation-link current contactinfo"
+                <a href="#hero" class="navigation-link current contactinfo"
                   >Студия</a
                 >
               </li>
@@ -36,19 +35,21 @@
                 >
               </li>
               <li class="nav-item">
-                <a href="" class="navigation-link contactinfo">Контакты</a>
+                <a href="#contacts" class="navigation-link contactinfo"
+                  >Контакты</a
+                >
               </li>
             </ul>
           </nav>
-          <ul class="contacts-list">
-            <li class="contacts-item">
+          <ul class="contact list">
+            <li class="contact-item">
               <a
-                href="emailto:info@devstudio.com"
+                href="mailto:info@devstudio.com"
                 class="contactmail contactinfo"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="contacts-item">
+            <li class="contact-item">
               <a href="tel:+380961111111" class="contactphone contactinfo"
                 >+38 096 111 11 11</a
               >
@@ -132,7 +133,7 @@
         </div>
       </section>
       <!--Команда-->
-      <section class="section-team">
+      <section class="section team">
         <div class="container">
           <h2 class="team-title">Наша команда</h2>
           <ul class="team-gallery list">
@@ -193,7 +194,7 @@
       </section>
     </main>
     <!--Футер-->
-    <footer class="footer">
+    <footer class="footer" id="contacts">
       <div class="container">
         <div class="contacts-container">
           <a href="index.html" class="footer-logo"
